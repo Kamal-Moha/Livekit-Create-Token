@@ -5,8 +5,8 @@ on:
     branches: [main]
 
 env:
-  REGION: 'us-east1' # TODO: update to your region
-  SERVICE: 'NEW-livekit-token-fastapi' # TODO: update to your service name
+  REGION: 'us-east1'
+  SERVICE: 'new-livekit-token-fastapi'
 
 jobs:
   deploy:
