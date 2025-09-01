@@ -7,7 +7,8 @@ from livekit import api
 from dotenv import load_dotenv
 load_dotenv()
 app = FastAPI(
-    title = "MyRide Wallet Voice Assistant"
+    title = "MyRide Wallet AI Voice Agent",
+    summary = "This API creates the token to join the room"
 )
 
 
